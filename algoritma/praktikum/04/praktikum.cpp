@@ -8,17 +8,17 @@ int main() {
     int pilihanMobil, tahunPembuatan, bulanKeterlambatan;
     long long pajakDasar = 0, denda = 0, totalBayar = 0;
 
-    cout << "=== SISTEM PAJAK KENDARAAN ===" << endl;
+    cout << "=== Sistem Pajak Kendaraan ===" << endl;
 
     cout << "Masukkan nama pemilik: ";
     getline(cin, namaPemilik);
 
-    cout << "\nPILIH JENIS MOBIL" << endl;
+    cout << "\n Pilih Jenis Mobil" << endl;
     cout << "1. Sedan\t\tPajak Dasar Rp2.000.000" << endl;
     cout << "2. SUV\t\t\tPajak Dasar Rp2.500.000" << endl;
     cout << "3. Pickup\t\tPajak Dasar Rp1.500.000" << endl;
     cout << "4. Sport Car\t\tPajak Dasar Rp5.000.000" << endl;
-    cout << "5. Bus\t\t\tPajak Dasar Rp3.000.000" << endl;
+    cout << "5. Bus\t\t\tPajak Dasar Rp3.000.000" << endl << endl;
 
     cout << "Masukkan pilihan mobil (1-5): ";
     cin >> pilihanMobil;
