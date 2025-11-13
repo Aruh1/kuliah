@@ -12,7 +12,7 @@ int main() {
     cout << "=== SISTEM PENDAFTARAN KELAS PRAKTIKUM ===" << endl;
     
     cout << "Masukkan Nama: ";
-    cin >> nama;
+    getline(cin, nama);
     cout << "Masukkan NIM : ";
     cin >> nim;
 

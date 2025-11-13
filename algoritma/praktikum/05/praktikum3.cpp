@@ -6,9 +6,10 @@ int main() {
     string nama, ukuran;
     char kodeUkuran;
     int jumlahPesanan, nim, harga, totalHarga;
-
+    
+    cout << "Pesan Baju PDH" << endl;
     cout << "Masukkan Nama: ";
-    cin >> nama;
+    getline(cin, nama);
 
     cout << "Masukkan NIM: ";
     cin >> nim;
