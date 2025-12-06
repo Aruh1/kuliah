@@ -7,6 +7,7 @@ int main() {
     int nim_terakhir;
     int ukuran;
 
+    cout << "2518049 - Rizki Pratama" << endl;
     cout << "Masukkan 1 angka paling belakang NIM Anda: ";
     cin >> nim_terakhir;
 
